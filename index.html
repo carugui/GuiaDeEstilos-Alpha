@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=VT323&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/style.css">
+    <title>Guia Estilos Alpha</title>
+</head>
+<body>
+    <main>
+        <h1>La <span class="texto-cursiva">guía de estilos</span> Alpha <3</h1>
+
+        <section class="seccion-guia">
+            <h2 class="titular-seccion">Encabezados</h2>
+
+            <h1>Este es un encabezado h1</h1>
+            <h2>Este es un encabezado h2</h2>
+            <h3>Este es un encabezado h3</h3>
+            <h4>Este es un encabezado h4</h4>
+            <h5>Este es un encabezado h5</h5>
+            <h6>Este es un encabezado h6.</h6>
+        </section>
+
+        <section class="seccion-guia">
+            <h2 class="titular-seccion">Colores</h2>
+            
+            <div class="seccion-color bg-color-naranja" data-color="#FC8455"></div>
+            <div class="seccion-color bg-color-azul" data-color="#5C7CD4"></div>
+            <div class="seccion-color bg-color-verde-claro" data-color="#C4DCAC"></div>
+            <div class="seccion-color bg-color-verde-oscuro" data-color="#736A00"></div>
+        </section>
+
+        <section class="seccion-guia">
+            <h2 class="titular-seccion">Botones</h2>
+
+            <h3>Botones principales</h3>
+            <button>Botón plano</button>
+            <a class="btn">Botón con link</a>
+
+            <h3>Botones secundarios</h3>
+            <button class="btn--secondary">Botón plano</button>
+            <a class="btn btn--secondary">Botón con link</a>
+        </section>
+
+        <section class="seccion-guia">
+            <h2 class="titular-seccion">Links</h2>
+
+            <a href="#">Link no visitado</a>
+            <a href="#" class="link-visitado">Link visitado</a>
+
+        </section>
+
+        <section class="seccion-guia">
+            <h2 class="titular-seccion">Formularios</h2>
+
+            <div class="formulario ">
+                <label for="Nombre">Así sería el input para el nombre:</label>
+                <input type="text" placeholder="Carla" id="Nombre">
+
+                <label for="Email">Así sería el input para el correo:</label>
+                <input type="email" placeholder="carla@hotmail.com" id="Email">
+
+                <label for="Mensaje">Así sería el input para el mensaje:</label>
+                <input type="text" placeholder="Mensaje" id="Mensaje">
+
+                <textarea name="textarea" placeholder="Mensaje"></textarea>
+                
+                <label for="Checkbox">Así es como se muestra un checkbox:</label>
+                <input class="toggler" id="Carla" type="checkbox" placeholder="Checkbox">
+            </div>
+        </section>
+
+        <section class="seccion-guia">
+            <h2 class="titular-seccion">Tooltip</h2>
+            <div class="tooltip"> Haz hoover sobre este texto para que se muestre el tooltip.
+                <span class="tooltiptext">¡Así es como se muestra un tooltip!</span>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
