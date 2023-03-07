@@ -161,18 +161,19 @@ button:hover,
 }
 
 input[type="text"], input[type="email"], textarea {
-    background-color: transparent;
-    color: #7A731C;
-    border-style: solid;
-    border-color: #7A731D;
+    background-color: rgba(213, 213, 213, 0.60);
+    color: #494949;
+    border: none;
     border-width: 2px;
     border-radius: 25px;
     padding: 10px 13px;
     align-self: stretch;
 }
 
-input[type="text"]:focus, input[type="email"]:focus {
-    border-color: #5C7CD4;
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    outline: none;
+    background-color: rgba(213, 213, 213, 1);
+
 }
 
 textarea {
